@@ -1,0 +1,98 @@
+body {
+    background: rgb(243, 243, 243);
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+img.logo_instagram {
+    width: 130px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.content {
+    padding: 2rem 0;
+    background: white;
+    border: 1px solid lightgray;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-photo {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+a {
+    color: #0095f6;
+    font-size: 14px;
+}
+
+.btn-continue {
+    background: #0095f6;
+    display: inline-block;
+    width: 34%;
+    color: white;
+    padding: .5rem;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.alternate {
+    margin-top: 2rem;
+}
+
+p {
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+    margin: 4px 0rem;
+}
+.no-bordered{
+    background: transparent;
+    border: none;
+}
+.aplication-icons img{
+    width: 150px;
+    margin-top: 1rem;
+}
